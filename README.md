@@ -3,7 +3,7 @@ CRM significa "Customer Relationship Management" (Gestión de relación con clie
 El objetivo principal de un CRM es proporcionar una visión completa y detallada de cada cliente,
 lo que permite a las empresas comprender sus necesidades, preferencias y comportamiento.
 Basicamente un sistema para almacenar clientes.
-Formulario es a modo ejemplo.
+### Formulario es a modo ejemplo.
                    
  ## Dependencias  y plugins 🛰️
  ```json
