@@ -4,7 +4,7 @@
 ###lo que permite a las empresas comprender sus necesidades, preferencias y comportamiento.
 ###Basicamente un sistema para almacenar clientes.
 ###Formulario es a modo ejemplo.
-                    ____________________________________
+                   
  #Dependencias  y plugins 🛰️
  
    "react": "^18.2.0",
@@ -15,8 +15,7 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1",
     "vite": "^4.2.0"
-                     ____________________________________
-                     
+                 
   #JSON Server.
   ####Crea Rest API falsa para simular un back 
   ####esto esta en el archivo db.json
