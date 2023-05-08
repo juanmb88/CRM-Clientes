@@ -20,3 +20,11 @@ Formulario es a modo ejemplo.
   Crea Rest API falsa para simular un back 
   esto esta en el archivo db.json
   para manejar request o peticioners sin back 
+
+# Instalacion
+```bash
+cd administradorDeClientes
+```
+```bash
+npm run dev
+```
