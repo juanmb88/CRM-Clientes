@@ -5,8 +5,8 @@ lo que permite a las empresas comprender sus necesidades, preferencias y comport
 Basicamente un sistema para almacenar clientes.
 Formulario es a modo ejemplo.
                    
- # Dependencias  y plugins 🛰️
- 
+ ## Dependencias  y plugins 🛰️
+ ```json
    "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0", (manejo de diferentes url dentro de una sola app)
@@ -15,8 +15,8 @@ Formulario es a modo ejemplo.
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1",
     "vite": "^4.2.0"
-                 
-  # JSON Server.
-  ####Crea Rest API falsa para simular un back 
-  ####esto esta en el archivo db.json
-  #####para manejar request o peticioners sin back 
+   ```              
+  ## JSON Server.
+  Crea Rest API falsa para simular un back 
+  esto esta en el archivo db.json
+  para manejar request o peticioners sin back 
