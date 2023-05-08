@@ -5,8 +5,8 @@ import Cliente from '../componentes/Cliente';
 
 export function loader(){ //exportamos loader se comporta similiar a un useffect , se va ejecutar cuando el componente este listo
   // console.log(import.meta.env)
-   
-    return  obtenerClientes()
+   const clientes = obtenerClientes()
+    return  clientes;
     
   }
 
