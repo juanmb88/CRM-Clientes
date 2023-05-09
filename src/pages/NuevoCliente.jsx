@@ -39,12 +39,12 @@ function NuevoCliente(){
 
   return (
    <>
-      <h1 className='text-blue-800 font-bold text-4xl block m-9' to='/'> Nuevo Cliente</h1>
+      <h1 className='text-green-800 font-bold text-4xl block m-9' to='/'> Nuevo Cliente</h1>
       <p className='text-black font-bold text-xs block m-4'>Llena todos los campos para registrar un nuevo cliente.</p>
 
       <div>
         <button 
-           className='bg-blue-800 text-white px-3 py-1 hover:text-red-600 font-bold uppercase'
+           className='bg-green-800 m-1 text-white px-3 py-1 hover:text-purple-400 font-bold uppercase'
            onClick={() => navigate(-1)}>
             {/* 1 nos lleva a la pagina anterior */}
             Volver
@@ -59,7 +59,7 @@ function NuevoCliente(){
             <Formulario/>
                 
           <input type="submit" 
-                  className='mt-5 w-full bg-blue-700 uppercase font-semibold text-white text-lg'
+                  className='mt-5 w-full bg-green-700 uppercase font-semibold text-white text-lg'
                   value="Registrar Cliente" />
           </Form> 
         </div> 

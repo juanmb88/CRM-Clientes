@@ -1,3 +1,31 @@
 {
-  "clientes": []
+  "clientes": [
+    {
+      "nombre": "asdasd",
+      "empresa": "sdfsd",
+      "email": "sdsdf@sadasd.asds",
+      "telefono": "213123",
+      "profesion": "asdasd",
+      "notas": "asdasd",
+      "id": 1
+    },
+    {
+      "nombre": "jjjjjj",
+      "empresa": "tecoi",
+      "email": "jaubn@asdas.asdas",
+      "telefono": "12312123",
+      "profesion": "trolo",
+      "notas": "asdasd",
+      "id": 2
+    },
+    {
+      "nombre": "sdsdf",
+      "empresa": "sddsf",
+      "email": "ddfs@asdfa.dsfsd",
+      "telefono": "dsfsdf",
+      "profesion": "sdfsdf",
+      "notas": "sddsfsdf",
+      "id": 3
+    }
+  ]
 }

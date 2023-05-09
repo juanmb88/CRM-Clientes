@@ -12,17 +12,17 @@ export function loader(){ //exportamos loader se comporta similiar a un useffect
 
 
 //reemplazo el useEffect
-const index = () => {
+const Index = () => {
   const clientes = useLoaderData();//access info loader
 
   return (
     <>
-        <h1 className='m-3 font-black text-4xl text-blue-900'>Clientes</h1>
-        <p className='m-3'>Administra tus Clientes</p>
+        <h1 className='m-3 font-black text-4xl text-purple-900'>Clientes</h1>
+        <p className='m-3 text-purple-900'>Administra tus Clientes</p>
 
         { clientes.length ? 
           ( <table className="w-full bg-white shadow mt-5 table-auto">
-                    <thead className="bg-blue-700 text-white">
+                    <thead className="bg-green-700 text-white">
                             <tr className="p-2">
                                 <th >Cliente</th>
                                 <th>Contactos</th>
@@ -44,4 +44,4 @@ const index = () => {
   )
 }
 
-export default index;
+export default Index;

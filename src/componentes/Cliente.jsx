@@ -11,13 +11,14 @@ export async function action({ params }) {
 function Cliente ({ cliente }) {
 
   const navigate = useNavigate();
-  const { nombre, empresa, email, telefono, id } = cliente;
+  const { nombre, empresa, email, telefono, id, profesion } = cliente;
 
   return (
     <tr className = "border-b">
         <td className = "p-6 space-y-2">
-              <p className = "text-2xl text-gray-700">{nombre}</p>
-              <p>{empresa}</p>
+              <p className = "text-2xl text-gray-900">{nombre}</p>
+              <p className = "text-md text-gray-700">Empresa: {empresa}</p>
+              <p className = "text-md text-gray-700">Profesion: {profesion}</p>
         </td>
 
         <td className = "p-6 space-y-2">
@@ -31,9 +32,9 @@ function Cliente ({ cliente }) {
             </p>
         </td>
 
-        <td className = "p-6 flex gap-3">
+        <td className = "p-6 flex gap-3 justify-end">
             <button type = "button"
-                    className = "text-blue-400 hover:text-blue-700 uppercase font-bold text-xs mt-7"
+                    className = "text-green-700 p-1 hover:text-green-400 uppercase font-bold text-xs border-4 border-y-emerald-500 border-x-emerald-200"
                     onClick = { () => navigate(`/clientes/${id}/editar`) }
                     >
                     Editar
@@ -50,7 +51,7 @@ function Cliente ({ cliente }) {
           >
 
             <button type = "submit"
-                    className = "text-red-500 hover:text-red-700 uppercase font-bold text-xs mt-7">
+                    className = "text-red-700 p-1 hover:text-red-900 uppercase font-bold text-xs border-4 border-y-red-600 border-x-red-200">
                     Eliminar
             </button>
 

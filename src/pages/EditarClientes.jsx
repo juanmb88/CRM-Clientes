@@ -48,12 +48,12 @@ const EditarClientes = () => {
 
   return (
     <>
-    <h1 className='text-blue-800 font-bold text-4xl block m-9' to='/'> Editar Cliente  </h1>
+    <h1 className='text-green-800 font-bold text-4xl block m-9' to='/'> Editar Cliente  </h1>
     <p className='text-black font-bold text-xs block m-4'>A continuacion podras modificar los datos de un cliente.</p>
 
     <div>
       <button 
-         className='bg-blue-800 text-white px-3 py-1 hover:text-red-600 font-bold uppercase'
+         className='bg-green-800 text-white px-3 py-1 hover:text-purple-600 font-bold uppercase'
          onClick={()=>navigate(-1)}>
           {/* 1 nos lleva a la pagina anterior */}
           Volver
@@ -70,7 +70,7 @@ const EditarClientes = () => {
                 />
             
               <input type="submit" 
-                    className='mt-5 w-full bg-blue-700 uppercase font-semibold text-white text-lg'
+                    className='mt-5 w-full bg-green-700 uppercase font-semibold text-white text-lg'
                     value="Guardar Cambios" />
           </Form> 
       </div> 
